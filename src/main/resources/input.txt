@@ -1,0 +1,16 @@
+" Пример конфигурации с математическими операциями
+table(
+  parameter1 => 50,
+  parameter2 => 30,
+  parameter3 => 100,
+  description => 'Тестовая конфигурация для вычислений'
+)
+" Объявляем константы
+200 -> max_value
+10 -> min_value
+100 -> base_value
+" Константные выражения
+^[max_value + min_value]
+^[max_value - min_value]
+^[min(max_value, min_value, base_value)]
+^[sqrt(max_value)]

@@ -1,0 +1,8 @@
+parameter1 = 50.0
+parameter2 = 30.0
+parameter3 = 100.0
+description = 'Тестовая конфигурация для вычислений'
+calculated_value = 210.0
+calculated_value = 190.0
+calculated_value = 10.0
+calculated_value = 14.142135623730951
